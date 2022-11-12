@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+html{
+
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body{
+font-size: 3rem;
+}
+
+.wrapper{
+  max-width: 75vw;
+  margin: 0 auto;
+  background-color: turquoise;
+}
+.superheros-wrapper{
+  margin: 0 5rem;
+}
+.superhero{
+  background-color: rgb(21, 222, 155);
+  margin-bottom: 2rem;
+  padding: 1rem;
+}

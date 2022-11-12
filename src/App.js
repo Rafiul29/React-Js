@@ -4,15 +4,18 @@
 // import Counter from "./components/Counter";
 // import Welcome from "./components/Welcome";
 
-import Fruits from "./components/Fruits";
+import From from "./components/class3/form/Form";
+import Superheros from "./components/class3/list-rendering/Superheros";
+// import Fruits from "./components/Fruits";
 
 // import Counter3Way from "./components/Counter3Way";
 // import Event from "./components/Event";
 function App() {
   return (
-   <div>
-
-    <Fruits/>
+   <div className="wrapper">
+    <From/>
+    {/* <Superheros/> */}
+    {/* <Fruits/> */}
     {/* <Counter3Way/> */}
     {/* <Football/>  */}
 
