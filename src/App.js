@@ -6,14 +6,24 @@
 
 import From from "./components/class3/form/Form";
 import Superheros from "./components/class3/list-rendering/Superheros";
+import LifeCycleMountingPhase from "./components/class4/LifeCycleMountingPhase";
+import ParentCom from "./components/class4/ParentCom";
+import PureCom from "./components/class4/PureCom";
+import RegularComp from "./components/class4/RegularComp";
+
 // import Fruits from "./components/Fruits";
 
 // import Counter3Way from "./components/Counter3Way";
-// import Event from "./components/Event";
+import Event from "./components/Event";
 function App() {
   return (
    <div className="wrapper">
-    <From/>
+    <ParentCom/>
+    {/* <PureCom/>
+  <RegularComp/> */}
+    {/* <LifeCycleUpdatePhase/> */}
+    {/* <LifeCycleMountingPhase/> */}
+    {/* <From/> */}
     {/* <Superheros/> */}
     {/* <Fruits/> */}
     {/* <Counter3Way/> */}
