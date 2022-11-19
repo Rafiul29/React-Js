@@ -10,6 +10,10 @@ import LifeCycleMountingPhase from "./components/class4/LifeCycleMountingPhase";
 import ParentCom from "./components/class4/ParentCom";
 import PureCom from "./components/class4/PureCom";
 import RegularComp from "./components/class4/RegularComp";
+import ParentComp from "./components/class5/Memo/ParentComp";
+import Protals from "./components/class5/Protals/Protals";
+import Reference from "./components/class5/Ref/Reference";
+import ReferenceFunctional from "./components/class5/Ref/ReferenceFunctional";
 
 // import Fruits from "./components/Fruits";
 
@@ -18,7 +22,12 @@ import Event from "./components/Event";
 function App() {
   return (
    <div className="wrapper">
-    <ParentCom/>
+
+    <Protals/>
+    {/* <ReferenceFunctional name="Batman"/> */}
+    {/* <Reference/> */}
+    {/* <ParentComp/> */}
+    {/* <ParentCom/> */}
     {/* <PureCom/>
   <RegularComp/> */}
     {/* <LifeCycleUpdatePhase/> */}
