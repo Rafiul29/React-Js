@@ -14,16 +14,29 @@ import ParentComp from "./components/class5/Memo/ParentComp";
 import Protals from "./components/class5/Protals/Protals";
 import Reference from "./components/class5/Ref/Reference";
 import ReferenceFunctional from "./components/class5/Ref/ReferenceFunctional";
+import { Comp1 } from "./components/class6/Context/Comp1";
+import JurseyMacker from "./components/class6/ErrorBounderies/JurseyMacker";
+import ClickCounter from "./components/class6/higherOrderComponentes/ClickCounter";
+import HoverCounter from "./components/class6/higherOrderComponentes/HoverCounter";
+import { RenderProps } from "./components/class6/render-props/RenderProps";
 
 // import Fruits from "./components/Fruits";
 
 // import Counter3Way from "./components/Counter3Way";
 import Event from "./components/Event";
 function App() {
+
   return (
    <div className="wrapper">
+    <Comp1/>
 
-    <Protals/>
+
+
+    {/* <RenderProps render={(isLoggedIn)=>(isLoggedIn?  "Rafiul": "visitor")}/> */}
+    {/* <HoverCounter/>
+    <ClickCounter/> */}
+    {/* <JurseyMacker/> */}
+    {/* <Protals/> */}
     {/* <ReferenceFunctional name="Batman"/> */}
     {/* <Reference/> */}
     {/* <ParentComp/> */}
