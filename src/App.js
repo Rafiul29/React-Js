@@ -19,6 +19,8 @@ import JurseyMacker from "./components/class6/ErrorBounderies/JurseyMacker";
 import ClickCounter from "./components/class6/higherOrderComponentes/ClickCounter";
 import HoverCounter from "./components/class6/higherOrderComponentes/HoverCounter";
 import { RenderProps } from "./components/class6/render-props/RenderProps";
+import Counter from "./components/class7-UseState/Counter";
+import User from "./components/class7-UseState/User";
 
 // import Fruits from "./components/Fruits";
 
@@ -28,10 +30,10 @@ function App() {
 
   return (
    <div className="wrapper">
-    <Comp1/>
+<User/>
 
-
-
+    {/* <Counter/> */}
+    {/* <Comp1/> */}
     {/* <RenderProps render={(isLoggedIn)=>(isLoggedIn?  "Rafiul": "visitor")}/> */}
     {/* <HoverCounter/>
     <ClickCounter/> */}
