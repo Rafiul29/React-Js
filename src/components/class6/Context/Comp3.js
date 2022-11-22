@@ -4,7 +4,7 @@ import { Comp4 } from './Comp4'
 export const Comp3 = () => {
   return (
     <div>
-      <Comp4 />
+      <Comp4/>
     </div>
   )
 }
