@@ -22,17 +22,58 @@ import { RenderProps } from "./components/class6/render-props/RenderProps";
 import Counter from "./components/class7-UseState/Counter";
 import Player from "./components/class7-UseState/Player";
 import User from "./components/class7-UseState/User";
+import UseEffect from "./components/class8-useEffect/UseEffect";
+import USers from "./components/class8-useEffect/USers";
 
 // import Fruits from "./components/Fruits";
 
 // import Counter3Way from "./components/Counter3Way";
-import Event from "./components/Event";
-function App() {
+// import Event from "./components/Event";
 
+
+
+import WireHouse1 from "./context/WireHouse1";
+
+
+function App() {
   return (
    <div className="wrapper">
+  
+{/* <UseEffect/> */}
+
+
+<USers/>
+
+
+
+    {/* <WireHouse1 name="Rafiul Islam"/> */}
+   </div>
+   
+  );
+}
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {/* <User/> */}
-<Player/>
+{/* <Player/> */}
     {/* <Counter/> */}
     {/* <Comp1/> */}
     {/* <RenderProps render={(isLoggedIn)=>(isLoggedIn?  "Rafiul": "visitor")}/> */}
@@ -65,9 +106,3 @@ function App() {
      <Hello name ="shamiul" birthyear={2016}/> */}
      {/* <Welcome/> */}
      {/* <Event/> */}
-   </div>
-   
-  );
-}
-
-export default App;

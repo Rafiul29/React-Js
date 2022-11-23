@@ -20,11 +20,12 @@ const Player = () => {
 
   return (
     <div>
-      <h2>Player Name : {player.firstName} {player.lastName}</h2>
+
+      {/* <h2>Player Name : {player.firstName} {player.lastName}</h2>
       <h2>Player Jursey Name: {player.jurseyname}</h2>
       <h2>Goal : {player.goals}</h2>
       <button onClick={handleAddPlayer}>Add Property</button>
-      <button onClick={handleMakeGoal}>Make goal</button>
+      <button onClick={handleMakeGoal}>Make goal</button> */}
     </div>
   )
 }
